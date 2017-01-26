@@ -1,5 +1,5 @@
 //
-//  SignInVC.swift
+//  ViewController.swift
 //  TechSocial
 //
 //  Created by rickey lee on 1/25/17.
@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SignInVC: UIViewController {
 

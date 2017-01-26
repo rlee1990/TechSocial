@@ -14,6 +14,7 @@
 		8BA9F6AF1E3965FB00F4D121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9F6AE1E3965FB00F4D121 /* Assets.xcassets */; };
 		8BA9F6B21E3965FB00F4D121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9F6B01E3965FB00F4D121 /* LaunchScreen.storyboard */; };
 		8BA9F6BA1E39675900F4D121 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9F6B91E39675900F4D121 /* GoogleService-Info .plist */; };
+		8BE6571F1E3AB40300E0D92A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE6571E1E3AB40300E0D92A /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8BA9F6B11E3965FB00F4D121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA9F6B31E3965FB00F4D121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BA9F6B91E39675900F4D121 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
+		8BE6571E1E3AB40300E0D92A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		93B46D3B7B80F0D7308AD1F3 /* Pods-TechSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechSocial/Pods-TechSocial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE6571F1E3AB40300E0D92A /* FBSDKLoginKit.framework in Frameworks */,
 				5FE3AB1D5E34A4CEA92F76B7 /* Pods_TechSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				0BB1AF773638161B0262C92A /* Pods_TechSocial.framework */,
+				8BE6571E1E3AB40300E0D92A /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -366,6 +370,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3QW9RYP57Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TechSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rickey.TechSocial;
@@ -380,6 +388,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3QW9RYP57Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TechSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rickey.TechSocial;

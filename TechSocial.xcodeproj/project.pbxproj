@@ -13,17 +13,13 @@
 		8BA9F6AD1E3965FB00F4D121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9F6AB1E3965FB00F4D121 /* Main.storyboard */; };
 		8BA9F6AF1E3965FB00F4D121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9F6AE1E3965FB00F4D121 /* Assets.xcassets */; };
 		8BA9F6B21E3965FB00F4D121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9F6B01E3965FB00F4D121 /* LaunchScreen.storyboard */; };
-
-		8BA9F6BA1E39675900F4D121 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9F6B91E39675900F4D121 /* GoogleService-Info .plist */; };
-		8BE6571F1E3AB40300E0D92A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE6571E1E3AB40300E0D92A /* FBSDKLoginKit.framework */; };
-
 		8BA9F6BF1E398EC800F4D121 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F6BE1E398EC800F4D121 /* CustomView.swift */; };
 		8BA9F6C21E398F9A00F4D121 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F6C11E398F9A00F4D121 /* Constants.swift */; };
 		8BA9F6C41E39939800F4D121 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F6C31E39939800F4D121 /* RoundBtn.swift */; };
 		8BA9F6C61E399A1F00F4D121 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F6C51E399A1F00F4D121 /* CustomTextField.swift */; };
 		8BA9F6C81E399D3400F4D121 /* CustomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F6C71E399D3400F4D121 /* CustomBtn.swift */; };
-		8BA9F6CA1E39A02F00F4D121 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9F6C91E39A02F00F4D121 /* GoogleService-Info .plist */; };
-
+		8BD4AE6A1E3ACCC800793325 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BD4AE691E3ACCC800793325 /* GoogleService-Info.plist */; };
+		8BE6571F1E3AB40300E0D92A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE6571E1E3AB40300E0D92A /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,17 +32,14 @@
 		8BA9F6AE1E3965FB00F4D121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA9F6B11E3965FB00F4D121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA9F6B31E3965FB00F4D121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
-		8BA9F6B91E39675900F4D121 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
-		8BE6571E1E3AB40300E0D92A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-
 		8BA9F6BE1E398EC800F4D121 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8BA9F6C11E398F9A00F4D121 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8BA9F6C31E39939800F4D121 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		8BA9F6C51E399A1F00F4D121 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		8BA9F6C71E399D3400F4D121 /* CustomBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
-		8BA9F6C91E39A02F00F4D121 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
-
+		8BD4AE691E3ACCC800793325 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8BD4AE6B1E3AD13300793325 /* TechSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TechSocial.entitlements; sourceTree = "<group>"; };
+		8BE6571E1E3AB40300E0D92A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		93B46D3B7B80F0D7308AD1F3 /* Pods-TechSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechSocial/Pods-TechSocial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +86,7 @@
 		8BA9F6A61E3965FB00F4D121 /* TechSocial */ = {
 			isa = PBXGroup;
 			children = (
+				8BD4AE6B1E3AD13300793325 /* TechSocial.entitlements */,
 				8BA9F6C01E398F7400F4D121 /* Util */,
 				8BA9F6BC1E396B4A00F4D121 /* Model */,
 				8BA9F6BB1E396B3F00F4D121 /* View */,
@@ -102,7 +96,7 @@
 				8BA9F6AE1E3965FB00F4D121 /* Assets.xcassets */,
 				8BA9F6B01E3965FB00F4D121 /* LaunchScreen.storyboard */,
 				8BA9F6B31E3965FB00F4D121 /* Info.plist */,
-				8BA9F6C91E39A02F00F4D121 /* GoogleService-Info .plist */,
+				8BD4AE691E3ACCC800793325 /* GoogleService-Info.plist */,
 			);
 			path = TechSocial;
 			sourceTree = "<group>";
@@ -187,6 +181,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3QW9RYP57Z;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -214,8 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA9F6B21E3965FB00F4D121 /* LaunchScreen.storyboard in Resources */,
+				8BD4AE6A1E3ACCC800793325 /* GoogleService-Info.plist in Resources */,
 				8BA9F6AF1E3965FB00F4D121 /* Assets.xcassets in Resources */,
-				8BA9F6CA1E39A02F00F4D121 /* GoogleService-Info .plist in Resources */,
 				8BA9F6AD1E3965FB00F4D121 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,7 +407,7 @@
 				DEVELOPMENT_TEAM = 3QW9RYP57Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)$(~/Documents/FacebookSDK)",
 				);
 				INFOPLIST_FILE = TechSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,7 +425,7 @@
 				DEVELOPMENT_TEAM = 3QW9RYP57Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)$(~/Documents/FacebookSDK)",
 				);
 				INFOPLIST_FILE = TechSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

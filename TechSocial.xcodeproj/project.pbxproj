@@ -19,6 +19,7 @@
 		8BA9F6C61E399A1F00F4D121 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F6C51E399A1F00F4D121 /* CustomTextField.swift */; };
 		8BA9F6C81E399D3400F4D121 /* CustomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F6C71E399D3400F4D121 /* CustomBtn.swift */; };
 		8BD4AE6A1E3ACCC800793325 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BD4AE691E3ACCC800793325 /* GoogleService-Info.plist */; };
+		8BD6F8531E3AE83F00F98BF4 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6F8521E3AE83F00F98BF4 /* FeedVC.swift */; };
 		8BE6571F1E3AB40300E0D92A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE6571E1E3AB40300E0D92A /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		8BA9F6C71E399D3400F4D121 /* CustomBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
 		8BD4AE691E3ACCC800793325 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8BD4AE6B1E3AD13300793325 /* TechSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TechSocial.entitlements; sourceTree = "<group>"; };
+		8BD6F8521E3AE83F00F98BF4 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		8BE6571E1E3AB40300E0D92A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		93B46D3B7B80F0D7308AD1F3 /* Pods-TechSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechSocial/Pods-TechSocial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				8BA9F6A91E3965FB00F4D121 /* SignInVC.swift */,
+				8BD6F8521E3AE83F00F98BF4 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				8BA9F6C41E39939800F4D121 /* RoundBtn.swift in Sources */,
 				8BA9F6C61E399A1F00F4D121 /* CustomTextField.swift in Sources */,
 				8BA9F6C81E399D3400F4D121 /* CustomBtn.swift in Sources */,
+				8BD6F8531E3AE83F00F98BF4 /* FeedVC.swift in Sources */,
 				8BA9F6AA1E3965FB00F4D121 /* SignInVC.swift in Sources */,
 				8BA9F6A81E3965FB00F4D121 /* AppDelegate.swift in Sources */,
 				8BA9F6C21E398F9A00F4D121 /* Constants.swift in Sources */,
